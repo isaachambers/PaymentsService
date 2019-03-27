@@ -37,4 +37,9 @@ public class PaymentServiceImpl implements PaymentsService {
 		return allPayments;
 	}
 
+	@Override
+	public Payment savePayment(Payment payment) {
+		return paymentRepository.save(payment);
+	}
+
 }

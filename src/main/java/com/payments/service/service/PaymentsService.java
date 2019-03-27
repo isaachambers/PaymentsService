@@ -16,4 +16,6 @@ public interface PaymentsService {
 
 	public List<Payment> getAllPayments();
 
+	public Payment savePayment(Payment payment);
+
 }
